@@ -89,6 +89,8 @@ nav a:hover {
     flex-direction:row;
     flex-wrap:wrap;
     justify-content:space-between;
+    margin:1%;
+    padding:1%;
     
     
     
@@ -112,11 +114,9 @@ nav a:hover {
 
 
 }
-h3,
-h4,
-h5 {
-    font-size:200%;
-}
+
+    
+
 .hero-banner {
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/compressed-banner.jpg");
     height:50%;
@@ -182,6 +182,19 @@ background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".
     flex: 0 0 50%;
 
  }
+ .snail {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/rolf-schmidbauer-kYfcztRG3Mg-unsplash.jpg");
+    
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100%;
+    position:relative;
+    padding:15%;
+    flex: 0 0 50%;
+
+ }
+
+
 
 
 .work-container {
@@ -192,10 +205,36 @@ background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".
     
 
 }
- h3 {
+.work-container p {
+    font-size:150%;
+    color:white;
+    text-align:center;
+}
+
+
+.all-header{
     flex: 0 0 20%;
     border-right: 5px solid white;
     text-align:right;
-    padding-right: 15px;
+    
+    
+    font-size:200%;
 
 }
+.p-about-me {
+    flex:0 0 78%;
+}
+@media screen and (max-width: 992px) {
+    .snail, 
+    .man,
+    .bear, 
+    .food {
+        display:none;
+      }
+     .all-header {
+        display:flex;
+    flex-wrap:wrap;
+     }
+     
+  }
+ 
