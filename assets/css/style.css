@@ -138,8 +138,8 @@ nav a:hover {
     color:white;
 }
 
-.elephant {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/bernd-dittrich-NZZ8LrS_nh8-unsplash.jpg");
+.sweatEquity {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/website_brogram.png");
     
     position:relative;
     background-repeat:no-repeat;
@@ -147,11 +147,14 @@ nav a:hover {
     position:relative;
     padding:15%;
     flex: 0 0 100%;
+    text-align:center;
+    font-size:150%;
+    text-decoration: none;
 
 
 }
-.bear {
-background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/michael-scherback-fyedvkS4yeY-unsplash.jpg");
+.quizzy {
+background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/quizzy_screeny.png");
    
     background-position:center;
     background-repeat:no-repeat;
@@ -159,10 +162,14 @@ background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".
     position:relative;
     padding:15%;
     flex: 0 0 50%;
+    text-align:center;
+    font-size:150%;
+    text-decoration: none;
+    
     
 }
- .food {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/jj-jordan-ClhHUlP2H8c-unsplash.jpg");
+ .weathery {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/newWeathery.png");
   
     background-position:center;
     background-repeat:no-repeat;
@@ -170,6 +177,11 @@ background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".
     position:relative;
     padding:15%;
     flex: 0 0 50%;
+    text-align:center;
+    font-size:150%;
+    text-decoration: none;
+    
+    
  }
  .man {
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/sammy-wong-Hudb8loLmyE-unsplash.jpg");
