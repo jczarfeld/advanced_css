@@ -153,6 +153,21 @@ nav a:hover {
 
 
 }
+.starGate {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/backUp.png");
+    
+    position:relative;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+    padding:15%;
+    flex: 0 0 100%;
+    text-align:center;
+    font-size:150%;
+    text-decoration: none;
+
+
+}
 .quizzy {
 background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/quizzy_screeny.png");
    
@@ -249,4 +264,7 @@ background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(".
      }
      
   }
- 
+  .links {
+      
+      font-size: 150%;
+  }
